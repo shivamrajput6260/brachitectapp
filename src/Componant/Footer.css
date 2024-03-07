@@ -1,0 +1,17 @@
+.footer-section{
+   text-align: center;
+    background-color: black;
+    color: white;
+    height: 60px;
+    padding: 12px;
+    margin-top: 5px;
+}
+
+.footer-ank{
+    padding: 0;
+    color: white;
+    margin: 6px;
+    border-bottom: 1px solid white;
+    letter-spacing: 0px;
+    font-size: 16px;
+}

@@ -1,0 +1,41 @@
+.main-home{ 
+  width: min(100%, 1500px);
+   margin: 0 auto;
+}
+
+.home-img {
+  font-size: 37px;
+  word-spacing: 4px;
+  color: #fff;
+  letter-spacing: 3px;
+  position: relative;
+}
+.center {
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%);
+}
+.center span {
+  background-color: rgba(0, 0, 0, 0.8);
+  word-spacing: -20px !important;
+  padding: 0px 12px;
+  font-size: 37px;
+  margin-right: 24px;
+}
+
+img {
+  object-fit: contain;
+  width: 100%;
+}
+
+
+@media screen and (max-width: 550px) {
+  .center > b {
+    display: none;
+  }
+  .center > span {
+    margin-right: 0px;
+  }
+}

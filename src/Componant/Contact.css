@@ -1,0 +1,61 @@
+.contact-section {
+  position: relative;
+  width: min(100%, 1500px);
+  margin: 0 auto;
+}
+.main-contact {
+   padding: 0px 20px;
+}
+
+.cont {
+  font-weight: 400;
+}
+.container {
+  padding: 0px;
+  
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+input {
+  padding: 10px;
+  margin: 10px 0px;
+  
+}
+input[type="submit"] {
+  background-color:black;
+  color: white;
+  padding: 14px 20px;
+  border: none;
+  cursor: pointer;
+  width: 150px;
+}
+
+input[type="submit"]:hover {
+  background-color:rgba(149 149 149 );
+  columns: black;
+}
+.con-img{
+  padding-top: 40px;
+}
+.con-img> img {
+    width: 100%;
+    object-fit: contain;
+
+}
+@media screen and (max-width:1570px) {
+    .contact-section {
+    width:95%;
+
+} }
+
+
+@media screen and (max-width:992px) {
+    .contact-section {
+    width:92%;
+
+} }
+
+
+

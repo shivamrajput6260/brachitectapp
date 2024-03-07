@@ -1,0 +1,63 @@
+.About-section{
+    position: relative;
+    width: min(100%, 1500px);
+    margin: 80px auto;
+}
+.main-About{
+    padding: 20px;
+}
+.images-main{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    margin-top: 50px;
+    grid-gap:20px
+}
+.con{
+   text-align: center;
+    background-color: whitesmoke;
+    font-size: 16px;
+    padding: 12px;
+    font-weight: 400;
+}
+.abo{
+  font-size: 24px;
+    font-weight: 400;
+}
+h2{
+    font-weight: 400;
+}
+
+h4{
+    font-weight: 400;
+    color: darkgray;
+}
+
+@media screen and (max-width:1570px) {
+    .About-section {
+    width:95%;
+
+}
+.images-main{
+    grid-gap:14px;
+} }
+@media screen and (max-width:992px) {
+    .images-main {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 2fr;
+} 
+.About-section {
+    width: 92%;
+} 
+}
+
+@media screen and (max-width:600px) {
+    .project-img{
+    grid-template-columns:1fr
+}
+.images-main{
+    grid-template-columns: 1fr;
+}
+
+}
+
